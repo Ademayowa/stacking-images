@@ -93,3 +93,23 @@ body {
 .right {
   margin-top: 200px;
 }
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-size: 17px !important;
+}
+
+.dots {
+  border: 1px dashed grey;
+  padding: 50px 0;
+}
+
+@media (max-width: 998px) {
+  .right {
+    position: relative;
+    top: 400px !important;
+  }
+}
