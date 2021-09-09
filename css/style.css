@@ -1,0 +1,95 @@
+* {
+  font-family: Futura;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+body {
+  background-color: #f2f7fb !important;
+}
+
+#card1,
+#card2,
+#card3,
+#card4,
+#card5,
+#card6 {
+  width: 180px;
+  height: 120px;
+  border-radius: 5px;
+}
+
+#card2,
+#card3,
+#card5,
+#card6 {
+  border: 1px dashed grey;
+}
+
+#card1 {
+  position: absolute;
+  top: 25px;
+  left: 40px;
+  background-color: #9bccdd;
+  z-index: 1;
+}
+
+#card2 {
+  position: absolute;
+  top: 45px;
+  left: 55px;
+  background-color: #58badd;
+  z-index: 2;
+}
+
+#card3 {
+  position: absolute;
+  top: 65px;
+  left: 75px;
+  background-color: #00a1e0;
+  z-index: 3;
+}
+
+#card4 {
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  background-color: #9bccdd;
+  z-index: 1;
+}
+
+#card5 {
+  position: absolute;
+  top: 320px;
+  left: 120px;
+  background-color: #58badd;
+  z-index: 2;
+}
+
+#card6 {
+  position: absolute;
+  top: 345px;
+  left: 145px;
+  background-color: #00a1e0;
+  z-index: 3;
+}
+
+/* .btns {
+  position: relative;
+} */
+
+.mv-btn {
+  position: absolute;
+  top: 85%;
+}
+
+.mv-btn2 {
+  position: absolute;
+  top: 85%;
+  left: 30%;
+}
+
+.right {
+  margin-top: 200px;
+}
